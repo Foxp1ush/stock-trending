@@ -1,20 +1,20 @@
 {
   "date": "2026-05-19",
-  "fetched_at": "2026-05-19T07:07:05Z",
+  "fetched_at": "2026-05-19T07:43:46Z",
   "combined_top10": [
     {
       "ticker": "MU",
-      "count": 1855,
+      "count": 1851,
       "sources_count": 6
     },
     {
       "ticker": "SPY",
-      "count": 803,
+      "count": 809,
       "sources_count": 4
     },
     {
       "ticker": "NVDA",
-      "count": 730,
+      "count": 720,
       "sources_count": 7
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "ticker": "NOW",
-      "count": 306,
+      "count": 308,
       "sources_count": 6
     },
     {
@@ -34,12 +34,12 @@
     },
     {
       "ticker": "SNDK",
-      "count": 244,
+      "count": 243,
       "sources_count": 2
     },
     {
       "ticker": "RKLB",
-      "count": 195,
+      "count": 193,
       "sources_count": 3
     },
     {
@@ -57,15 +57,15 @@
     "apewisdom:all-stocks": [
       {
         "ticker": "MU",
-        "count": 929
+        "count": 927
       },
       {
         "ticker": "SPY",
-        "count": 405
+        "count": 408
       },
       {
         "ticker": "NVDA",
-        "count": 367
+        "count": 362
       },
       {
         "ticker": "MSFT",
@@ -73,7 +73,7 @@
       },
       {
         "ticker": "NOW",
-        "count": 153
+        "count": 154
       },
       {
         "ticker": "QQQ",
@@ -81,14 +81,14 @@
       },
       {
         "ticker": "SNDK",
-        "count": 123
-      },
-      {
-        "ticker": "RKLB",
-        "count": 98
+        "count": 122
       },
       {
         "ticker": "POET",
+        "count": 97
+      },
+      {
+        "ticker": "RKLB",
         "count": 97
       },
       {
@@ -99,23 +99,23 @@
     "apewisdom:wallstreetbets": [
       {
         "ticker": "MU",
-        "count": 904
+        "count": 903
       },
       {
         "ticker": "SPY",
-        "count": 378
+        "count": 381
       },
       {
         "ticker": "NVDA",
-        "count": 326
+        "count": 322
       },
       {
         "ticker": "MSFT",
-        "count": 174
+        "count": 175
       },
       {
         "ticker": "NOW",
-        "count": 143
+        "count": 144
       },
       {
         "ticker": "SNDK",
@@ -140,12 +140,12 @@
     ],
     "apewisdom:stocks": [
       {
-        "ticker": "NVDA",
+        "ticker": "VTOL",
         "count": 30
       },
       {
-        "ticker": "VTOL",
-        "count": 30
+        "ticker": "NVDA",
+        "count": 29
       },
       {
         "ticker": "AMD",
@@ -153,30 +153,30 @@
       },
       {
         "ticker": "MU",
-        "count": 19
-      },
-      {
-        "ticker": "MSFT",
         "count": 18
       },
       {
-        "ticker": "RKLB",
-        "count": 14
+        "ticker": "MSFT",
+        "count": 17
       },
       {
         "ticker": "SPY",
         "count": 14
       },
       {
+        "ticker": "RKLB",
+        "count": 13
+      },
+      {
         "ticker": "VOO",
         "count": 12
       },
       {
-        "ticker": "NBIS",
-        "count": 10
+        "ticker": "GOOGL",
+        "count": 9
       },
       {
-        "ticker": "GOOGL",
+        "ticker": "NBIS",
         "count": 9
       }
     ],
@@ -237,7 +237,7 @@
       },
       {
         "ticker": "ES",
-        "count": 4
+        "count": 3
       },
       {
         "ticker": "MT",
@@ -336,15 +336,15 @@
         "count": 3
       },
       {
-        "ticker": "SIDU",
-        "count": 3
-      },
-      {
         "ticker": "AIM",
         "count": 2
       },
       {
         "ticker": "CTM",
+        "count": 2
+      },
+      {
+        "ticker": "ET",
         "count": 2
       }
     ],
@@ -354,40 +354,40 @@
         "count": 29
       },
       {
-        "ticker": "FATN",
-        "count": 26
+        "ticker": "NKE",
+        "count": 28
       },
       {
-        "ticker": "NKE",
+        "ticker": "XOM",
         "count": 25
       },
       {
-        "ticker": "SE",
+        "ticker": "NASA",
         "count": 24
       },
       {
-        "ticker": "XLY",
+        "ticker": "FATN",
         "count": 23
       },
       {
-        "ticker": "BAC",
-        "count": 22
-      },
-      {
-        "ticker": "COST",
+        "ticker": "EBS",
         "count": 21
       },
       {
-        "ticker": "JPM",
+        "ticker": "EGY",
         "count": 20
       },
       {
-        "ticker": "CLF",
+        "ticker": "PS",
         "count": 19
       },
       {
-        "ticker": "CLS",
+        "ticker": "MRLN",
         "count": 18
+      },
+      {
+        "ticker": "ALAB",
+        "count": 17
       }
     ]
   },
@@ -422,7 +422,7 @@
     },
     "stocktwits:trending": {
       "raw_items": 30,
-      "valid_items": 26
+      "valid_items": 25
     }
   }
 }

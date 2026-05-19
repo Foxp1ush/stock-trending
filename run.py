@@ -11,10 +11,17 @@ if hasattr(sys.stdout, "reconfigure"):
 
 load_dotenv()
 
-from src import aggregator, apewisdom_collector, stocktwits_collector, ticker_extractor
+from src import (
+    aggregator,
+    apewisdom_collector,
+    raw_saver,
+    stocktwits_collector,
+    ticker_extractor,
+)
 
 ROOT = Path(__file__).resolve().parent
 RUNS_DIR = ROOT / "data" / "runs"
+RAW_DIR = ROOT / "data" / "raw"
 
 
 def main() -> None:
@@ -23,6 +30,10 @@ def main() -> None:
     print("[수집] 외부 API 호출 중...")
     raw_results = apewisdom_collector.collect() + stocktwits_collector.collect()
     print(f"  → {len(raw_results)}개 소스 수집 완료\n")
+
+    print("[Raw 저장] 시계열 분석용 CSV 평탄화 중...")
+    raw_csv_path = raw_saver.save_csv(raw_results, RAW_DIR)
+    print(f"  → {raw_csv_path}\n")
 
     print("[정제] 화이트/블랙리스트 로드 중...")
     whitelist = ticker_extractor.load_whitelist()
