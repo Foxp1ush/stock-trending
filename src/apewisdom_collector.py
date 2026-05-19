@@ -20,6 +20,7 @@ FILTERS = [
     "investing",
     "Daytrading",
     "Shortsqueeze",
+    "pennystocks",
 ]
 USER_AGENT = "stock-trending-bot/0.1 (research)"
 REQUEST_DELAY_SEC = 0.5
