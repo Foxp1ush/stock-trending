@@ -5,15 +5,6 @@ on:
   schedule:
     - cron: "0 22 * * 0"
   workflow_dispatch:
-    inputs:
-      pool_size:
-        description: "Mania Index 분석 풀 크기 (기본 50)"
-        required: false
-        default: "50"
-      top_k:
-        description: "Mania Index Top K (기본 20)"
-        required: false
-        default: "20"
 
 permissions:
   contents: write
@@ -41,14 +32,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run weekly FF5 report (orthodox interpretation)
+      - name: Run weekly multi-track reports (FF5 + Mania per subreddit)
         run: python -m src.ff5.weekly_run
-
-      - name: Run Mania Index analysis (behavioral interpretation)
-        run: |
-          POOL="${{ github.event.inputs.pool_size || '50' }}"
-          TOPK="${{ github.event.inputs.top_k || '20' }}"
-          python -m src.ff5.mania_index "$POOL" "$TOPK"
 
       - name: Commit reports and caches
         run: |

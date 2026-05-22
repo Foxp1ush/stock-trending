@@ -199,6 +199,179 @@ def build_json(
     }
 
 
+def _format_mania_table(df) -> str:
+    """Mania DataFrame을 Markdown 표로 포맷. df는 compute_mania_scores 출력."""
+    header = (
+        "| Ticker | **Mania** | invR² pt | UMD pt | BSE pt | R² | UMD β | mean_bse | idio_vol | N |\n"
+        "|--------|-----------|----------|--------|--------|------|-------|----------|----------|---|"
+    )
+    rows = []
+    for _, r in df.iterrows():
+        rows.append(
+            f"| {r['ticker']} | **{r['mania_score']:.2f}** | "
+            f"{r['inv_rsq_score']:.2f} | {r['umd_score']:.2f} | {r['bse_score']:.2f} | "
+            f"{r['rsquared']:.3f} | {r['umd_beta']:+.3f} | "
+            f"{r['mean_bse']:.4f} | {r['idio_vol']:.4f} | {int(r['nobs'])} |"
+        )
+    return header + "\n" + "\n".join(rows)
+
+
+def build_subreddit_report(
+    source: str,
+    ff5_results: list[FF5Result],
+    mania_top,
+    week_id: str,
+    selection_meta: dict,
+) -> str:
+    """단일 서브레딧 리포트: Orthodox FF5 + Mania Index 통합 단일 .md."""
+    sub_name = source.split(":", 1)[-1]
+    today = date.today().isoformat()
+    n_ff5 = len(ff5_results)
+    n_ff5_ok = sum(1 for r in ff5_results if r.status == "ok")
+
+    sections = [
+        f"# Weekly Report — `{sub_name}` — {week_id}",
+        "",
+        f"Generated: {today}  ·  Source: `{source}`  ·  "
+        f"Lookback: {selection_meta.get('lookback_days', '?')} days",
+        "",
+        f"[← Back to dashboard]({week_id}.md)",
+        "",
+        "## Part 1 — Orthodox FF5 Regression",
+        "",
+        f"Successful regressions: **{n_ff5_ok} / {n_ff5}**",
+        "",
+        _format_summary_table(ff5_results),
+        "",
+        "## Part 2 — Mania Index (within-subreddit ranking)",
+        "",
+    ]
+
+    if mania_top is None or len(mania_top) == 0:
+        sections.append(
+            "_Insufficient successful regressions in this subreddit for Mania scoring. "
+            "See Part 1 for available FF5 data._"
+        )
+    else:
+        sections.extend([
+            "Quantile rank within this subreddit's pool (0~100). "
+            "Higher score = more mania-like (poor factor fit, strong momentum, unstable betas).",
+            "",
+            _format_mania_table(mania_top),
+        ])
+
+    sections.extend([
+        "",
+        "## Per-ticker FF5 Detail",
+        "",
+    ])
+    for r in ff5_results:
+        sections.append(_format_detail_section(r))
+        sections.append("")
+
+    sections.extend([
+        "---",
+        "### Methodology",
+        "",
+        "- **Orthodox FF5**: 2y daily OLS on Fama-French 5 factors (Mkt-RF, SMB, HML, RMW, CMA). "
+        "Excess return = R_i - RF.",
+        "- **Mania Index**: 1y daily 6-factor OLS adding Carhart UMD. "
+        "Three instability metrics quantile-ranked within this subreddit pool: "
+        "(1-R²), |UMD beta|, mean BSE of 5 factor betas. Each 0~33.33 pts → total 0~100.",
+        "- Factor data: Kenneth R. French Data Library. Price data: Yahoo Finance via yfinance.",
+        "",
+        "### Disclaimer",
+        "",
+        "_Research and educational use only. Not investment advice. Past performance does not "
+        "predict future returns._",
+    ])
+
+    return "\n".join(sections)
+
+
+def build_dashboard(per_source_summary: dict, week_id: str) -> str:
+    """메인 대시보드 — 각 서브레딧 Top 3 요약 표 + 아이 파일 링크."""
+    today = date.today().isoformat()
+
+    sections = [
+        f"# Weekly Reports Dashboard — {week_id}",
+        "",
+        f"Generated: {today}",
+        "",
+        "Two analyses run per ApeWisdom subreddit, in parallel:",
+        "",
+        "- **Orthodox FF5** — Fama-French 5-factor risk decomposition (2y daily OLS).",
+        "- **Mania Index** — 6-factor (FF5 + Carhart UMD) instability score: "
+        "(1-R²) + |UMD beta| + mean BSE, each quantile-ranked within the subreddit's pool. "
+        "Higher = more retail-mania-like.",
+        "",
+        "> ⚠ **Mania scores are quantile ranks within each subreddit's pool** — "
+        "they are NOT directly comparable across subreddits.",
+        "",
+        "## Subreddit Tracks",
+        "",
+    ]
+
+    for source, data in per_source_summary.items():
+        sub_name = source.split(":", 1)[-1]
+        link = f"{week_id}-{sub_name}.md"
+        n_pool = data.get("n_pool", 0)
+        n_ok = data.get("n_ok", 0)
+
+        sections.extend([
+            f"### `{sub_name}`  ·  [→ details]({link})",
+            "",
+            f"Pool: **{n_pool}** tickers  ·  FF5 OK: **{n_ok}**",
+            "",
+        ])
+
+        ff5_top = data.get("ff5_top3", [])
+        if ff5_top:
+            sections.extend([
+                "**FF5 — Top 3 by R²** (best explained by factors):",
+                "",
+                "| Ticker | R² | Mkt-RF β | SMB β | HML β | Tag |",
+                "|--------|------|----------|-------|-------|-----|",
+            ])
+            for r in ff5_top:
+                sections.append(
+                    f"| {r['ticker']} | {r['rsquared']:.3f} | {r['mkt']:+.2f} | "
+                    f"{r['smb']:+.2f} | {r['hml']:+.2f} | {r['tag']} |"
+                )
+            sections.append("")
+
+        mania_top = data.get("mania_top3", [])
+        if mania_top:
+            sections.extend([
+                "**Mania Index — Top 3** (most mania-like in this pool):",
+                "",
+                "| Ticker | Mania | R² | UMD β | mean_bse |",
+                "|--------|-------|------|-------|----------|",
+            ])
+            for r in mania_top:
+                sections.append(
+                    f"| {r['ticker']} | **{r['mania_score']:.2f}** | {r['rsquared']:.3f} | "
+                    f"{r['umd_beta']:+.3f} | {r['mean_bse']:.4f} |"
+                )
+            sections.append("")
+        else:
+            sections.append("_Mania scoring unavailable (insufficient OK regressions)._")
+            sections.append("")
+
+    sections.extend([
+        "---",
+        "### Methodology",
+        "",
+        "- Trending tickers from ApeWisdom (https://apewisdom.io), 7-day accumulated mentions.",
+        "- Price data: yfinance (auto-adjusted close). Factor data: Kenneth R. French Data Library.",
+        "- Statistical estimation: OLS via statsmodels. Whitelisted, non-ETF tickers only.",
+        "",
+        "_Research and educational use only. Not investment advice._",
+    ])
+
+    return "\n".join(sections)
+
+
 def write_reports(
     results: list[FF5Result],
     week_id: str,

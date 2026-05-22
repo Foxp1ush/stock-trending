@@ -19,7 +19,7 @@ import statsmodels.api as sm
 
 from src.ff5.factor_loader import load_ff5_plus_umd_daily
 from src.ff5.price_loader import load_prices
-from src.ff5.weekly_selector import select_top_tickers
+from src.ff5.weekly_selector import DEFAULT_SOURCE, select_top_tickers
 
 MIN_OBS_FOR_REGRESSION = 60
 DEFAULT_POOL_SIZE = 50
@@ -145,14 +145,19 @@ def select_top_mania(
     top_k: int = DEFAULT_TOP_K,
     weights: tuple[float, float, float] = (1.0, 1.0, 1.0),
     use_abs_umd: bool = False,
+    source: str = DEFAULT_SOURCE,
 ) -> pd.DataFrame:
-    """ApeWisdom Top pool_size → 6팩터 회귀 → mania 점수 → Top K DataFrame."""
-    pool = select_top_tickers(top_k=pool_size)
+    """ApeWisdom Top pool_size → 6팩터 회귀 → mania 점수 → Top K DataFrame.
+
+    source: 'apewisdom:all-stocks' (기본) 또는 'apewisdom:wallstreetbets',
+            'apewisdom:pennystocks', 'apewisdom:Shortsqueeze' 등 서브레딧별 호출 가능.
+    """
+    pool = select_top_tickers(top_k=pool_size, source=source)
     if pool.empty:
-        raise RuntimeError("No trending tickers found in recent ApeWisdom data.")
+        raise RuntimeError(f"No trending tickers found for source={source}.")
 
     tickers = pool["ticker"].tolist()
-    print(f"[1/2] Running 6-factor regressions on {len(tickers)} tickers ...")
+    print(f"[1/2] Running 6-factor regressions on {len(tickers)} tickers ({source}) ...")
     results: list[ManiaResult] = []
     for tk in tickers:
         r = run_six_factor(tk)
