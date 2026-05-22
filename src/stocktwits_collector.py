@@ -1,3 +1,4 @@
+# DEPRECATED 2026-05-22: ApeWisdom 단일 소스화로 비활성화. 코드는 재활성화 가능하도록 보존.
 """Stocktwits 공개 trending 엔드포인트에서 인기 종목 수집.
 
 Stocktwits는 멘션 카운트를 직접 노출하지 않으므로, trending 순위를

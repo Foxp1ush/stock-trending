@@ -1,0 +1,63 @@
+name: Weekly FF5 + Mania Reports
+
+# 매주 일요일 UTC 22:00 (= KST 월요일 07:00) 자동 실행 + 수동 트리거 가능
+on:
+  schedule:
+    - cron: "0 22 * * 0"
+  workflow_dispatch:
+    inputs:
+      pool_size:
+        description: "Mania Index 분석 풀 크기 (기본 50)"
+        required: false
+        default: "50"
+      top_k:
+        description: "Mania Index Top K (기본 20)"
+        required: false
+        default: "20"
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run weekly FF5 report (orthodox interpretation)
+        run: python -m src.ff5.weekly_run
+
+      - name: Run Mania Index analysis (behavioral interpretation)
+        run: |
+          POOL="${{ github.event.inputs.pool_size || '50' }}"
+          TOPK="${{ github.event.inputs.top_k || '20' }}"
+          python -m src.ff5.mania_index "$POOL" "$TOPK"
+
+      - name: Commit reports and caches
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/ data/ff5/ data/prices/
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+          else
+            git commit -m "chore(weekly): FF5 + Mania reports $(date -u +%Y-W%V)"
+            git push
+          fi

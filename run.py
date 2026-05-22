@@ -15,7 +15,6 @@ from src import (
     aggregator,
     apewisdom_collector,
     raw_saver,
-    stocktwits_collector,
     ticker_extractor,
 )
 
@@ -28,7 +27,7 @@ def main() -> None:
     print("=== Stock Trending Bot — Daily Run ===\n")
 
     print("[수집] 외부 API 호출 중...")
-    raw_results = apewisdom_collector.collect() + stocktwits_collector.collect()
+    raw_results = apewisdom_collector.collect()
     print(f"  → {len(raw_results)}개 소스 수집 완료\n")
 
     print("[Raw 저장] 시계열 분석용 CSV 평탄화 중...")

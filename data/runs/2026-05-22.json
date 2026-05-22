@@ -1,0 +1,428 @@
+{
+  "date": "2026-05-22",
+  "fetched_at": "2026-05-21T22:41:17Z",
+  "combined_top10": [
+    {
+      "ticker": "NVDA",
+      "count": 1633,
+      "sources_count": 7
+    },
+    {
+      "ticker": "MU",
+      "count": 1075,
+      "sources_count": 7
+    },
+    {
+      "ticker": "SPY",
+      "count": 705,
+      "sources_count": 5
+    },
+    {
+      "ticker": "MSFT",
+      "count": 635,
+      "sources_count": 7
+    },
+    {
+      "ticker": "RKLB",
+      "count": 235,
+      "sources_count": 3
+    },
+    {
+      "ticker": "SNDK",
+      "count": 229,
+      "sources_count": 3
+    },
+    {
+      "ticker": "NBIS",
+      "count": 209,
+      "sources_count": 4
+    },
+    {
+      "ticker": "QQQ",
+      "count": 209,
+      "sources_count": 4
+    },
+    {
+      "ticker": "DTE",
+      "count": 193,
+      "sources_count": 7
+    },
+    {
+      "ticker": "TSLA",
+      "count": 184,
+      "sources_count": 7
+    }
+  ],
+  "by_source": {
+    "apewisdom:all-stocks": [
+      {
+        "ticker": "NVDA",
+        "count": 820
+      },
+      {
+        "ticker": "MU",
+        "count": 537
+      },
+      {
+        "ticker": "SPY",
+        "count": 356
+      },
+      {
+        "ticker": "MSFT",
+        "count": 318
+      },
+      {
+        "ticker": "RKLB",
+        "count": 119
+      },
+      {
+        "ticker": "SNDK",
+        "count": 115
+      },
+      {
+        "ticker": "QQQ",
+        "count": 108
+      },
+      {
+        "ticker": "NBIS",
+        "count": 106
+      },
+      {
+        "ticker": "DTE",
+        "count": 100
+      },
+      {
+        "ticker": "IBM",
+        "count": 95
+      }
+    ],
+    "apewisdom:wallstreetbets": [
+      {
+        "ticker": "NVDA",
+        "count": 758
+      },
+      {
+        "ticker": "MU",
+        "count": 513
+      },
+      {
+        "ticker": "SPY",
+        "count": 322
+      },
+      {
+        "ticker": "MSFT",
+        "count": 294
+      },
+      {
+        "ticker": "SNDK",
+        "count": 112
+      },
+      {
+        "ticker": "QQQ",
+        "count": 89
+      },
+      {
+        "ticker": "NBIS",
+        "count": 88
+      },
+      {
+        "ticker": "RKLB",
+        "count": 88
+      },
+      {
+        "ticker": "IBM",
+        "count": 86
+      },
+      {
+        "ticker": "DTE",
+        "count": 85
+      }
+    ],
+    "apewisdom:stocks": [
+      {
+        "ticker": "NVDA",
+        "count": 40
+      },
+      {
+        "ticker": "RKLB",
+        "count": 28
+      },
+      {
+        "ticker": "MSFT",
+        "count": 19
+      },
+      {
+        "ticker": "TSLA",
+        "count": 16
+      },
+      {
+        "ticker": "VOO",
+        "count": 16
+      },
+      {
+        "ticker": "SPY",
+        "count": 13
+      },
+      {
+        "ticker": "MU",
+        "count": 11
+      },
+      {
+        "ticker": "DRTS",
+        "count": 10
+      },
+      {
+        "ticker": "AMD",
+        "count": 9
+      },
+      {
+        "ticker": "ASTS",
+        "count": 9
+      }
+    ],
+    "apewisdom:investing": [
+      {
+        "ticker": "MU",
+        "count": 11
+      },
+      {
+        "ticker": "AMD",
+        "count": 10
+      },
+      {
+        "ticker": "VOO",
+        "count": 9
+      },
+      {
+        "ticker": "NBIS",
+        "count": 8
+      },
+      {
+        "ticker": "NVDA",
+        "count": 8
+      },
+      {
+        "ticker": "VTI",
+        "count": 5
+      },
+      {
+        "ticker": "QQQ",
+        "count": 4
+      },
+      {
+        "ticker": "GOOGL",
+        "count": 3
+      },
+      {
+        "ticker": "QQQM",
+        "count": 3
+      },
+      {
+        "ticker": "RSP",
+        "count": 3
+      }
+    ],
+    "apewisdom:Daytrading": [
+      {
+        "ticker": "SPY",
+        "count": 11
+      },
+      {
+        "ticker": "RR",
+        "count": 7
+      },
+      {
+        "ticker": "API",
+        "count": 6
+      },
+      {
+        "ticker": "NVDA",
+        "count": 5
+      },
+      {
+        "ticker": "ES",
+        "count": 4
+      },
+      {
+        "ticker": "DTE",
+        "count": 3
+      },
+      {
+        "ticker": "LIT",
+        "count": 3
+      },
+      {
+        "ticker": "BE",
+        "count": 2
+      },
+      {
+        "ticker": "HR",
+        "count": 2
+      },
+      {
+        "ticker": "SMA",
+        "count": 2
+      }
+    ],
+    "apewisdom:Shortsqueeze": [
+      {
+        "ticker": "AAPL",
+        "count": 1
+      },
+      {
+        "ticker": "ALL",
+        "count": 1
+      },
+      {
+        "ticker": "AMD",
+        "count": 1
+      },
+      {
+        "ticker": "AMZN",
+        "count": 1
+      },
+      {
+        "ticker": "BB",
+        "count": 1
+      },
+      {
+        "ticker": "BE",
+        "count": 1
+      },
+      {
+        "ticker": "BYND",
+        "count": 1
+      },
+      {
+        "ticker": "CAR",
+        "count": 1
+      },
+      {
+        "ticker": "CC",
+        "count": 1
+      },
+      {
+        "ticker": "CHWY",
+        "count": 1
+      }
+    ],
+    "apewisdom:pennystocks": [
+      {
+        "ticker": "CXAI",
+        "count": 23
+      },
+      {
+        "ticker": "GCTS",
+        "count": 10
+      },
+      {
+        "ticker": "SLS",
+        "count": 9
+      },
+      {
+        "ticker": "IBRX",
+        "count": 8
+      },
+      {
+        "ticker": "KOPN",
+        "count": 4
+      },
+      {
+        "ticker": "CODX",
+        "count": 3
+      },
+      {
+        "ticker": "FLYX",
+        "count": 3
+      },
+      {
+        "ticker": "JTAI",
+        "count": 3
+      },
+      {
+        "ticker": "ARR",
+        "count": 2
+      },
+      {
+        "ticker": "SPCE",
+        "count": 2
+      }
+    ],
+    "stocktwits:trending": [
+      {
+        "ticker": "BULL",
+        "count": 30
+      },
+      {
+        "ticker": "QBTS",
+        "count": 29
+      },
+      {
+        "ticker": "NIO",
+        "count": 28
+      },
+      {
+        "ticker": "RGTI",
+        "count": 27
+      },
+      {
+        "ticker": "INFQ",
+        "count": 26
+      },
+      {
+        "ticker": "FCEL",
+        "count": 25
+      },
+      {
+        "ticker": "WYFI",
+        "count": 24
+      },
+      {
+        "ticker": "DECK",
+        "count": 23
+      },
+      {
+        "ticker": "AKTX",
+        "count": 22
+      },
+      {
+        "ticker": "WMT",
+        "count": 21
+      }
+    ]
+  },
+  "source_stats": {
+    "apewisdom:all-stocks": {
+      "raw_items": 50,
+      "valid_items": 49
+    },
+    "apewisdom:wallstreetbets": {
+      "raw_items": 50,
+      "valid_items": 49
+    },
+    "apewisdom:stocks": {
+      "raw_items": 50,
+      "valid_items": 50
+    },
+    "apewisdom:investing": {
+      "raw_items": 50,
+      "valid_items": 48
+    },
+    "apewisdom:Daytrading": {
+      "raw_items": 50,
+      "valid_items": 48
+    },
+    "apewisdom:Shortsqueeze": {
+      "raw_items": 50,
+      "valid_items": 50
+    },
+    "apewisdom:pennystocks": {
+      "raw_items": 50,
+      "valid_items": 49
+    },
+    "stocktwits:trending": {
+      "raw_items": 30,
+      "valid_items": 28
+    }
+  }
+}
