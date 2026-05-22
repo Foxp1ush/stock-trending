@@ -1,54 +1,54 @@
 {
   "date": "2026-05-22",
-  "fetched_at": "2026-05-21T22:41:17Z",
+  "fetched_at": "2026-05-22T06:25:36Z",
   "combined_top10": [
     {
       "ticker": "NVDA",
-      "count": 1633,
+      "count": 1251,
       "sources_count": 7
     },
     {
       "ticker": "MU",
-      "count": 1075,
+      "count": 927,
       "sources_count": 7
     },
     {
       "ticker": "SPY",
-      "count": 705,
-      "sources_count": 5
-    },
-    {
-      "ticker": "MSFT",
-      "count": 635,
-      "sources_count": 7
-    },
-    {
-      "ticker": "RKLB",
-      "count": 235,
-      "sources_count": 3
-    },
-    {
-      "ticker": "SNDK",
-      "count": 229,
-      "sources_count": 3
-    },
-    {
-      "ticker": "NBIS",
-      "count": 209,
+      "count": 726,
       "sources_count": 4
     },
     {
+      "ticker": "MSFT",
+      "count": 634,
+      "sources_count": 7
+    },
+    {
+      "ticker": "SNDK",
+      "count": 264,
+      "sources_count": 3
+    },
+    {
+      "ticker": "IBM",
+      "count": 255,
+      "sources_count": 6
+    },
+    {
+      "ticker": "RKLB",
+      "count": 217,
+      "sources_count": 3
+    },
+    {
       "ticker": "QQQ",
-      "count": 209,
+      "count": 216,
+      "sources_count": 4
+    },
+    {
+      "ticker": "NBIS",
+      "count": 199,
       "sources_count": 4
     },
     {
       "ticker": "DTE",
-      "count": 193,
-      "sources_count": 7
-    },
-    {
-      "ticker": "TSLA",
       "count": 184,
       "sources_count": 7
     }
@@ -57,211 +57,211 @@
     "apewisdom:all-stocks": [
       {
         "ticker": "NVDA",
-        "count": 820
+        "count": 630
       },
       {
         "ticker": "MU",
-        "count": 537
+        "count": 464
       },
       {
         "ticker": "SPY",
-        "count": 356
+        "count": 368
       },
       {
         "ticker": "MSFT",
         "count": 318
       },
       {
-        "ticker": "RKLB",
-        "count": 119
-      },
-      {
         "ticker": "SNDK",
-        "count": 115
-      },
-      {
-        "ticker": "QQQ",
-        "count": 108
-      },
-      {
-        "ticker": "NBIS",
-        "count": 106
-      },
-      {
-        "ticker": "DTE",
-        "count": 100
+        "count": 133
       },
       {
         "ticker": "IBM",
+        "count": 131
+      },
+      {
+        "ticker": "QQQ",
+        "count": 111
+      },
+      {
+        "ticker": "RKLB",
+        "count": 110
+      },
+      {
+        "ticker": "NBIS",
+        "count": 101
+      },
+      {
+        "ticker": "DTE",
         "count": 95
       }
     ],
     "apewisdom:wallstreetbets": [
       {
         "ticker": "NVDA",
-        "count": 758
+        "count": 577
       },
       {
         "ticker": "MU",
-        "count": 513
+        "count": 437
       },
       {
         "ticker": "SPY",
-        "count": 322
+        "count": 333
       },
       {
         "ticker": "MSFT",
-        "count": 294
+        "count": 289
       },
       {
         "ticker": "SNDK",
-        "count": 112
-      },
-      {
-        "ticker": "QQQ",
-        "count": 89
-      },
-      {
-        "ticker": "NBIS",
-        "count": 88
-      },
-      {
-        "ticker": "RKLB",
-        "count": 88
+        "count": 129
       },
       {
         "ticker": "IBM",
-        "count": 86
+        "count": 119
+      },
+      {
+        "ticker": "NBIS",
+        "count": 84
+      },
+      {
+        "ticker": "RKLB",
+        "count": 82
       },
       {
         "ticker": "DTE",
-        "count": 85
+        "count": 79
+      },
+      {
+        "ticker": "QQQ",
+        "count": 77
       }
     ],
     "apewisdom:stocks": [
       {
         "ticker": "NVDA",
-        "count": 40
+        "count": 26
       },
       {
         "ticker": "RKLB",
-        "count": 28
+        "count": 25
       },
       {
         "ticker": "MSFT",
-        "count": 19
-      },
-      {
-        "ticker": "TSLA",
-        "count": 16
+        "count": 23
       },
       {
         "ticker": "VOO",
-        "count": 16
+        "count": 22
       },
       {
-        "ticker": "SPY",
-        "count": 13
+        "ticker": "TSLA",
+        "count": 17
       },
       {
         "ticker": "MU",
+        "count": 12
+      },
+      {
+        "ticker": "SPY",
+        "count": 12
+      },
+      {
+        "ticker": "ASTS",
         "count": 11
       },
       {
         "ticker": "DRTS",
+        "count": 11
+      },
+      {
+        "ticker": "QQQ",
         "count": 10
-      },
-      {
-        "ticker": "AMD",
-        "count": 9
-      },
-      {
-        "ticker": "ASTS",
-        "count": 9
       }
     ],
     "apewisdom:investing": [
+      {
+        "ticker": "QQQ",
+        "count": 18
+      },
       {
         "ticker": "MU",
         "count": 11
       },
       {
-        "ticker": "AMD",
-        "count": 10
+        "ticker": "VOO",
+        "count": 11
       },
       {
-        "ticker": "VOO",
+        "ticker": "AMD",
         "count": 9
       },
       {
         "ticker": "NBIS",
-        "count": 8
+        "count": 9
       },
       {
         "ticker": "NVDA",
-        "count": 8
+        "count": 7
       },
       {
         "ticker": "VTI",
-        "count": 5
-      },
-      {
-        "ticker": "QQQ",
-        "count": 4
-      },
-      {
-        "ticker": "GOOGL",
-        "count": 3
+        "count": 7
       },
       {
         "ticker": "QQQM",
         "count": 3
       },
       {
-        "ticker": "RSP",
-        "count": 3
+        "ticker": "GOOGL",
+        "count": 2
+      },
+      {
+        "ticker": "SATS",
+        "count": 2
       }
     ],
     "apewisdom:Daytrading": [
       {
         "ticker": "SPY",
-        "count": 11
-      },
-      {
-        "ticker": "RR",
-        "count": 7
-      },
-      {
-        "ticker": "API",
-        "count": 6
+        "count": 13
       },
       {
         "ticker": "NVDA",
-        "count": 5
+        "count": 9
+      },
+      {
+        "ticker": "RR",
+        "count": 6
       },
       {
         "ticker": "ES",
+        "count": 5
+      },
+      {
+        "ticker": "API",
         "count": 4
       },
       {
         "ticker": "DTE",
-        "count": 3
+        "count": 4
       },
       {
         "ticker": "LIT",
         "count": 3
       },
       {
-        "ticker": "BE",
-        "count": 2
-      },
-      {
         "ticker": "HR",
         "count": 2
       },
       {
-        "ticker": "SMA",
-        "count": 2
+        "ticker": "AAPL",
+        "count": 1
+      },
+      {
+        "ticker": "ADBE",
+        "count": 1
       }
     ],
     "apewisdom:Shortsqueeze": [
@@ -309,30 +309,26 @@
     "apewisdom:pennystocks": [
       {
         "ticker": "CXAI",
-        "count": 23
+        "count": 22
       },
       {
         "ticker": "GCTS",
-        "count": 10
-      },
-      {
-        "ticker": "SLS",
-        "count": 9
+        "count": 12
       },
       {
         "ticker": "IBRX",
         "count": 8
       },
       {
+        "ticker": "SLS",
+        "count": 8
+      },
+      {
         "ticker": "KOPN",
-        "count": 4
+        "count": 5
       },
       {
         "ticker": "CODX",
-        "count": 3
-      },
-      {
-        "ticker": "FLYX",
         "count": 3
       },
       {
@@ -340,54 +336,16 @@
         "count": 3
       },
       {
-        "ticker": "ARR",
+        "ticker": "ATPC",
+        "count": 2
+      },
+      {
+        "ticker": "FLYX",
         "count": 2
       },
       {
         "ticker": "SPCE",
         "count": 2
-      }
-    ],
-    "stocktwits:trending": [
-      {
-        "ticker": "BULL",
-        "count": 30
-      },
-      {
-        "ticker": "QBTS",
-        "count": 29
-      },
-      {
-        "ticker": "NIO",
-        "count": 28
-      },
-      {
-        "ticker": "RGTI",
-        "count": 27
-      },
-      {
-        "ticker": "INFQ",
-        "count": 26
-      },
-      {
-        "ticker": "FCEL",
-        "count": 25
-      },
-      {
-        "ticker": "WYFI",
-        "count": 24
-      },
-      {
-        "ticker": "DECK",
-        "count": 23
-      },
-      {
-        "ticker": "AKTX",
-        "count": 22
-      },
-      {
-        "ticker": "WMT",
-        "count": 21
       }
     ]
   },
@@ -419,10 +377,6 @@
     "apewisdom:pennystocks": {
       "raw_items": 50,
       "valid_items": 49
-    },
-    "stocktwits:trending": {
-      "raw_items": 30,
-      "valid_items": 28
     }
   }
 }
