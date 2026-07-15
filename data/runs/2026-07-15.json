@@ -1,0 +1,382 @@
+{
+  "date": "2026-07-15",
+  "fetched_at": "2026-07-15T22:28:33Z",
+  "combined_top10": [
+    {
+      "ticker": "MU",
+      "count": 1308,
+      "sources_count": 7
+    },
+    {
+      "ticker": "IBM",
+      "count": 632,
+      "sources_count": 7
+    },
+    {
+      "ticker": "SPY",
+      "count": 588,
+      "sources_count": 5
+    },
+    {
+      "ticker": "ASTS",
+      "count": 449,
+      "sources_count": 3
+    },
+    {
+      "ticker": "SNDK",
+      "count": 404,
+      "sources_count": 3
+    },
+    {
+      "ticker": "MSFT",
+      "count": 376,
+      "sources_count": 7
+    },
+    {
+      "ticker": "QQQ",
+      "count": 265,
+      "sources_count": 4
+    },
+    {
+      "ticker": "ASML",
+      "count": 264,
+      "sources_count": 6
+    },
+    {
+      "ticker": "NVDA",
+      "count": 249,
+      "sources_count": 7
+    },
+    {
+      "ticker": "TSM",
+      "count": 179,
+      "sources_count": 5
+    }
+  ],
+  "by_source": {
+    "apewisdom:all-stocks": [
+      {
+        "ticker": "MU",
+        "count": 654
+      },
+      {
+        "ticker": "IBM",
+        "count": 317
+      },
+      {
+        "ticker": "SPY",
+        "count": 297
+      },
+      {
+        "ticker": "ASTS",
+        "count": 231
+      },
+      {
+        "ticker": "SNDK",
+        "count": 205
+      },
+      {
+        "ticker": "MSFT",
+        "count": 188
+      },
+      {
+        "ticker": "QQQ",
+        "count": 135
+      },
+      {
+        "ticker": "ASML",
+        "count": 132
+      },
+      {
+        "ticker": "NVDA",
+        "count": 126
+      },
+      {
+        "ticker": "TSM",
+        "count": 89
+      }
+    ],
+    "apewisdom:wallstreetbets": [
+      {
+        "ticker": "MU",
+        "count": 637
+      },
+      {
+        "ticker": "SPY",
+        "count": 278
+      },
+      {
+        "ticker": "IBM",
+        "count": 270
+      },
+      {
+        "ticker": "ASTS",
+        "count": 210
+      },
+      {
+        "ticker": "SNDK",
+        "count": 195
+      },
+      {
+        "ticker": "MSFT",
+        "count": 179
+      },
+      {
+        "ticker": "QQQ",
+        "count": 123
+      },
+      {
+        "ticker": "ASML",
+        "count": 115
+      },
+      {
+        "ticker": "NVDA",
+        "count": 114
+      },
+      {
+        "ticker": "TSM",
+        "count": 85
+      }
+    ],
+    "apewisdom:stocks": [
+      {
+        "ticker": "IBM",
+        "count": 36
+      },
+      {
+        "ticker": "MU",
+        "count": 13
+      },
+      {
+        "ticker": "ORCL",
+        "count": 10
+      },
+      {
+        "ticker": "ASTS",
+        "count": 8
+      },
+      {
+        "ticker": "RKLB",
+        "count": 7
+      },
+      {
+        "ticker": "ASML",
+        "count": 6
+      },
+      {
+        "ticker": "MSFT",
+        "count": 5
+      },
+      {
+        "ticker": "PYPL",
+        "count": 5
+      },
+      {
+        "ticker": "AMZN",
+        "count": 4
+      },
+      {
+        "ticker": "GOOGL",
+        "count": 4
+      }
+    ],
+    "apewisdom:investing": [
+      {
+        "ticker": "ASML",
+        "count": 9
+      },
+      {
+        "ticker": "IBM",
+        "count": 6
+      },
+      {
+        "ticker": "VOO",
+        "count": 6
+      },
+      {
+        "ticker": "IT",
+        "count": 4
+      },
+      {
+        "ticker": "SPY",
+        "count": 4
+      },
+      {
+        "ticker": "NVDA",
+        "count": 3
+      },
+      {
+        "ticker": "QQQ",
+        "count": 3
+      },
+      {
+        "ticker": "VTI",
+        "count": 3
+      },
+      {
+        "ticker": "KO",
+        "count": 2
+      },
+      {
+        "ticker": "PR",
+        "count": 2
+      }
+    ],
+    "apewisdom:Daytrading": [
+      {
+        "ticker": "RR",
+        "count": 7
+      },
+      {
+        "ticker": "SPY",
+        "count": 6
+      },
+      {
+        "ticker": "DTE",
+        "count": 4
+      },
+      {
+        "ticker": "QQQ",
+        "count": 4
+      },
+      {
+        "ticker": "SMA",
+        "count": 4
+      },
+      {
+        "ticker": "AM",
+        "count": 3
+      },
+      {
+        "ticker": "BE",
+        "count": 2
+      },
+      {
+        "ticker": "ET",
+        "count": 2
+      },
+      {
+        "ticker": "INTC",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "count": 2
+      }
+    ],
+    "apewisdom:Shortsqueeze": [
+      {
+        "ticker": "AAPL",
+        "count": 1
+      },
+      {
+        "ticker": "ALL",
+        "count": 1
+      },
+      {
+        "ticker": "AM",
+        "count": 1
+      },
+      {
+        "ticker": "AMD",
+        "count": 1
+      },
+      {
+        "ticker": "AMZN",
+        "count": 1
+      },
+      {
+        "ticker": "BB",
+        "count": 1
+      },
+      {
+        "ticker": "BE",
+        "count": 1
+      },
+      {
+        "ticker": "CAR",
+        "count": 1
+      },
+      {
+        "ticker": "CC",
+        "count": 1
+      },
+      {
+        "ticker": "CHWY",
+        "count": 1
+      }
+    ],
+    "apewisdom:pennystocks": [
+      {
+        "ticker": "JTAI",
+        "count": 8
+      },
+      {
+        "ticker": "VIVS",
+        "count": 4
+      },
+      {
+        "ticker": "GUTS",
+        "count": 3
+      },
+      {
+        "ticker": "AMT",
+        "count": 2
+      },
+      {
+        "ticker": "ERNA",
+        "count": 2
+      },
+      {
+        "ticker": "GETY",
+        "count": 2
+      },
+      {
+        "ticker": "LCID",
+        "count": 2
+      },
+      {
+        "ticker": "SOBR",
+        "count": 2
+      },
+      {
+        "ticker": "TRX",
+        "count": 2
+      },
+      {
+        "ticker": "AAPL",
+        "count": 1
+      }
+    ]
+  },
+  "source_stats": {
+    "apewisdom:all-stocks": {
+      "raw_items": 50,
+      "valid_items": 49
+    },
+    "apewisdom:wallstreetbets": {
+      "raw_items": 50,
+      "valid_items": 49
+    },
+    "apewisdom:stocks": {
+      "raw_items": 50,
+      "valid_items": 49
+    },
+    "apewisdom:investing": {
+      "raw_items": 50,
+      "valid_items": 49
+    },
+    "apewisdom:Daytrading": {
+      "raw_items": 50,
+      "valid_items": 50
+    },
+    "apewisdom:Shortsqueeze": {
+      "raw_items": 50,
+      "valid_items": 48
+    },
+    "apewisdom:pennystocks": {
+      "raw_items": 50,
+      "valid_items": 49
+    }
+  }
+}
