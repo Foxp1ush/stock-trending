@@ -1,25 +1,25 @@
 # Weekly Report — `Shortsqueeze` — 2026-W36
 
-Generated: 2026-08-31  ·  Source: `apewisdom:Shortsqueeze`  ·  Lookback: 7 days
+Generated: 2026-09-06  ·  Source: `apewisdom:Shortsqueeze`  ·  Lookback: 7 days
 
 [← Back to dashboard](2026-W36.md)
 
 ## Part 1 — Orthodox FF5 Regression
 
-Successful regressions: **9 / 10**
+Successful regressions: **10 / 10**
 
 | Ticker | Alpha (ann %) | Mkt-RF β | SMB β | HML β | RMW β | CMA β | R² | N | Comment |
 |--------|---------------|----------|-------|-------|-------|-------|------|------|---------|
-| IQ | -34.86% | +1.039 | +0.304 | +0.241 | -0.702 | +0.225 | 0.142 | 396 | Weak profitability; Modest factor fit |
-| IP | -22.96% | +1.139 | +0.466 | +0.589 | +0.329 | +0.916 | 0.322 | 396 | Value tilt; Conservative investment |
-| IT | -70.16% | +0.844 | +0.352 | -0.180 | +0.184 | +0.045 | 0.145 | 396 | Significant negative alpha; Modest factor fit |
-| MRNA | -26.54% | +0.676 | +0.886 | -0.174 | -2.045 | +1.638 | 0.244 | 396 | Small-cap tilt; Weak profitability; Conservative investment |
-| PS | — | — | — | — | — | — | — | — | _insufficient_data_ |
-| ONDS | +209.45% | +1.601 | +1.598 | -0.584 | -2.352 | -1.015 | 0.169 | 396 | Small-cap tilt; Growth tilt; Weak profitability; Aggressive investment; Significant positive alpha; Modest factor fit |
-| ON | -18.81% | +1.812 | +0.633 | -0.020 | -0.210 | +1.061 | 0.435 | 396 | Small-cap tilt; Conservative investment |
-| SO | +1.97% | +0.102 | -0.234 | +0.476 | -0.043 | +0.120 | 0.084 | 396 | Modest factor fit |
-| WEN | -49.11% | +0.597 | +0.796 | +0.234 | +0.344 | +0.899 | 0.199 | 396 | Small-cap tilt; Conservative investment; Modest factor fit |
-| SMCI | -7.12% | +1.198 | +0.244 | -2.054 | -2.046 | +1.982 | 0.250 | 396 | Growth tilt; Weak profitability; Conservative investment |
+| HTZ | +62.67% | +1.036 | +2.140 | +0.688 | +0.369 | +0.269 | 0.103 | 392 | Small-cap tilt; Value tilt; Modest factor fit |
+| GPRO | -6.53% | +1.154 | +2.027 | -0.639 | -1.498 | -0.007 | 0.200 | 392 | Small-cap tilt; Growth tilt; Weak profitability |
+| SLS | +97.45% | +0.219 | +0.660 | +0.178 | -1.896 | -0.978 | 0.078 | 392 | Small-cap tilt; Weak profitability; Aggressive investment; Modest factor fit |
+| MSTR | -0.77% | +1.666 | +0.584 | -0.099 | -2.714 | -0.582 | 0.345 | 392 | Small-cap tilt; Weak profitability; Aggressive investment |
+| API | +82.91% | +0.076 | +0.664 | -1.340 | -1.614 | +0.770 | 0.063 | 392 | Small-cap tilt; Growth tilt; Weak profitability; Conservative investment; Modest factor fit |
+| ARR | -7.54% | +0.629 | +0.090 | +0.211 | -0.295 | +0.382 | 0.271 | 392 | Neutral profile |
+| FCF | -9.78% | +0.992 | +0.965 | +1.206 | +0.201 | -0.260 | 0.708 | 392 | Small-cap tilt; Value tilt |
+| GRRR | +120.81% | +1.428 | +0.109 | -0.796 | -2.535 | +1.171 | 0.139 | 392 | Growth tilt; Weak profitability; Conservative investment; Modest factor fit |
+| OPEN | +121.93% | +1.271 | +1.961 | -0.644 | -1.320 | +1.405 | 0.098 | 392 | Small-cap tilt; Growth tilt; Weak profitability; Conservative investment; Modest factor fit |
+| HOOD | +61.21% | +2.262 | -0.172 | +0.022 | -2.495 | -0.589 | 0.561 | 392 | Weak profitability; Aggressive investment |
 
 ## Part 2 — Mania Index (within-subreddit ranking)
 
@@ -27,184 +27,198 @@ Quantile rank within this subreddit's pool (0~100). Higher score = more mania-li
 
 | Ticker | **Mania** | invR² pt | UMD pt | BSE pt | R² | UMD β | mean_bse | idio_vol | N |
 |--------|-----------|----------|--------|--------|------|-------|----------|----------|---|
-| ONDS | **92.59** | 25.93 | 33.33 | 33.33 | 0.284 | +1.077 | 1.3573 | 0.0692 | 146 |
-| IQ | **74.07** | 29.63 | 22.22 | 22.22 | 0.164 | +0.036 | 0.4884 | 0.0249 | 146 |
-| SO | **62.96** | 33.33 | 25.93 | 3.70 | 0.074 | +0.089 | 0.1956 | 0.0100 | 146 |
-| SMCI | **62.96** | 14.81 | 18.52 | 29.63 | 0.323 | -0.105 | 0.7903 | 0.0403 | 146 |
-| MRNA | **62.96** | 22.22 | 14.81 | 25.93 | 0.288 | -0.205 | 0.7382 | 0.0376 | 146 |
-| ON | **48.15** | 3.70 | 29.63 | 14.81 | 0.380 | +0.268 | 0.4645 | 0.0237 | 146 |
-| WEN | **37.04** | 18.52 | 7.41 | 11.11 | 0.291 | -0.980 | 0.4398 | 0.0224 | 146 |
-| IT | **33.33** | 11.11 | 3.70 | 18.52 | 0.333 | -1.770 | 0.4868 | 0.0248 | 146 |
-| IP | **25.93** | 7.41 | 11.11 | 7.41 | 0.372 | -0.311 | 0.3957 | 0.0202 | 146 |
+| HTZ | **83.33** | 33.33 | 26.67 | 23.33 | 0.108 | +0.106 | 0.9289 | 0.0468 | 142 |
+| SLS | **83.33** | 20.00 | 33.33 | 30.00 | 0.160 | +0.827 | 1.1310 | 0.0570 | 142 |
+| OPEN | **70.00** | 23.33 | 13.33 | 33.33 | 0.155 | -0.245 | 1.6795 | 0.0847 | 142 |
+| GPRO | **63.33** | 16.67 | 20.00 | 26.67 | 0.307 | -0.068 | 1.0414 | 0.0525 | 142 |
+| ARR | **63.33** | 26.67 | 30.00 | 6.67 | 0.150 | +0.137 | 0.2831 | 0.0143 | 142 |
+| GRRR | **56.67** | 13.33 | 23.33 | 20.00 | 0.346 | +0.020 | 0.7781 | 0.0392 | 142 |
+| API | **50.00** | 30.00 | 10.00 | 10.00 | 0.127 | -0.268 | 0.5432 | 0.0274 | 142 |
+| MSTR | **30.00** | 10.00 | 3.33 | 16.67 | 0.408 | -0.556 | 0.7364 | 0.0371 | 142 |
+| HOOD | **26.67** | 6.67 | 6.67 | 13.33 | 0.556 | -0.360 | 0.6008 | 0.0303 | 142 |
+| FCF | **23.33** | 3.33 | 16.67 | 3.33 | 0.696 | -0.120 | 0.1652 | 0.0083 | 142 |
 
 ## Per-ticker FF5 Detail
 
-### IQ
+### HTZ
 
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.1423 (adjusted = 0.1313)
-- Alpha (annualized): **-34.86%** (daily = -0.001383, t = -0.78, p = 0.4363)
-
-Factor loadings:
-
-| Factor | β | t-stat | p-value |
-|--------|---|--------|---------|
-| Mkt-RF | +1.0387 | +5.54 | 0.0000 *** |
-| SMB | +0.3035 | +0.94 | 0.3470  |
-| HML | +0.2406 | +0.83 | 0.4085  |
-| RMW | -0.7025 | -1.97 | 0.0490 * |
-| CMA | +0.2250 | +0.59 | 0.5523  |
-
-_Interpretation: Weak profitability; Modest factor fit_
-
-### IP
-
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.3223 (adjusted = 0.3136)
-- Alpha (annualized): **-22.96%** (daily = -0.000911, t = -0.90, p = 0.3698)
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.1032 (adjusted = 0.0916)
+- Alpha (annualized): **+62.67%** (daily = +0.002487, t = +0.82, p = 0.4133)
 
 Factor loadings:
 
 | Factor | β | t-stat | p-value |
 |--------|---|--------|---------|
-| Mkt-RF | +1.1386 | +10.62 | 0.0000 *** |
-| SMB | +0.4661 | +2.53 | 0.0118 * |
-| HML | +0.5886 | +3.54 | 0.0004 *** |
-| RMW | +0.3291 | +1.62 | 0.1064  |
-| CMA | +0.9163 | +4.24 | 0.0000 *** |
+| Mkt-RF | +1.0355 | +3.23 | 0.0013 ** |
+| SMB | +2.1398 | +3.88 | 0.0001 *** |
+| HML | +0.6880 | +1.38 | 0.1689  |
+| RMW | +0.3695 | +0.61 | 0.5423  |
+| CMA | +0.2690 | +0.42 | 0.6778  |
 
-_Interpretation: Value tilt; Conservative investment_
+_Interpretation: Small-cap tilt; Value tilt; Modest factor fit_
 
-### IT
+### GPRO
 
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.1445 (adjusted = 0.1336)
-- Alpha (annualized): **-70.16%** (daily = -0.002784, t = -2.25, p = 0.0250)
-
-Factor loadings:
-
-| Factor | β | t-stat | p-value |
-|--------|---|--------|---------|
-| Mkt-RF | +0.8444 | +6.46 | 0.0000 *** |
-| SMB | +0.3523 | +1.57 | 0.1176  |
-| HML | -0.1797 | -0.89 | 0.3756  |
-| RMW | +0.1843 | +0.74 | 0.4578  |
-| CMA | +0.0447 | +0.17 | 0.8654  |
-
-_Interpretation: Significant negative alpha; Modest factor fit_
-
-### MRNA
-
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.2437 (adjusted = 0.2340)
-- Alpha (annualized): **-26.54%** (daily = -0.001053, t = -0.55, p = 0.5799)
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.2005 (adjusted = 0.1901)
+- Alpha (annualized): **-6.53%** (daily = -0.000259, t = -0.09, p = 0.9259)
 
 Factor loadings:
 
 | Factor | β | t-stat | p-value |
 |--------|---|--------|---------|
-| Mkt-RF | +0.6762 | +3.37 | 0.0008 *** |
-| SMB | +0.8857 | +2.57 | 0.0107 * |
-| HML | -0.1737 | -0.56 | 0.5773  |
-| RMW | -2.0450 | -5.37 | 0.0000 *** |
-| CMA | +1.6383 | +4.04 | 0.0001 *** |
+| Mkt-RF | +1.1543 | +3.92 | 0.0001 *** |
+| SMB | +2.0270 | +4.01 | 0.0001 *** |
+| HML | -0.6389 | -1.40 | 0.1635  |
+| RMW | -1.4985 | -2.70 | 0.0073 ** |
+| CMA | -0.0069 | -0.01 | 0.9907  |
 
-_Interpretation: Small-cap tilt; Weak profitability; Conservative investment_
+_Interpretation: Small-cap tilt; Growth tilt; Weak profitability_
 
-### PS
+### SLS
 
-Status: `insufficient_data` — only 0 overlapping days after factor join
-
-
-### ONDS
-
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.1692 (adjusted = 0.1585)
-- Alpha (annualized): **+209.45%** (daily = +0.008312, t = +2.14, p = 0.0332)
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.0781 (adjusted = 0.0662)
+- Alpha (annualized): **+97.45%** (daily = +0.003867, t = +1.38, p = 0.1672)
 
 Factor loadings:
 
 | Factor | β | t-stat | p-value |
 |--------|---|--------|---------|
-| Mkt-RF | +1.6015 | +3.90 | 0.0001 *** |
-| SMB | +1.5978 | +2.26 | 0.0242 * |
-| HML | -0.5837 | -0.92 | 0.3600  |
-| RMW | -2.3522 | -3.02 | 0.0027 ** |
-| CMA | -1.0153 | -1.23 | 0.2212  |
+| Mkt-RF | +0.2191 | +0.74 | 0.4585  |
+| SMB | +0.6602 | +1.30 | 0.1937  |
+| HML | +0.1777 | +0.39 | 0.6990  |
+| RMW | -1.8955 | -3.40 | 0.0007 *** |
+| CMA | -0.9780 | -1.64 | 0.1013  |
 
-_Interpretation: Small-cap tilt; Growth tilt; Weak profitability; Aggressive investment; Significant positive alpha; Modest factor fit_
+_Interpretation: Small-cap tilt; Weak profitability; Aggressive investment; Modest factor fit_
 
-### ON
+### MSTR
 
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.4348 (adjusted = 0.4276)
-- Alpha (annualized): **-18.81%** (daily = -0.000746, t = -0.57, p = 0.5690)
-
-Factor loadings:
-
-| Factor | β | t-stat | p-value |
-|--------|---|--------|---------|
-| Mkt-RF | +1.8123 | +13.10 | 0.0000 *** |
-| SMB | +0.6329 | +2.66 | 0.0081 ** |
-| HML | -0.0197 | -0.09 | 0.9268  |
-| RMW | -0.2099 | -0.80 | 0.4242  |
-| CMA | +1.0611 | +3.80 | 0.0002 *** |
-
-_Interpretation: Small-cap tilt; Conservative investment_
-
-### SO
-
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.0842 (adjusted = 0.0724)
-- Alpha (annualized): **+1.97%** (daily = +0.000078, t = +0.15, p = 0.8844)
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.3446 (adjusted = 0.3362)
+- Alpha (annualized): **-0.77%** (daily = -0.000030, t = -0.01, p = 0.9893)
 
 Factor loadings:
 
 | Factor | β | t-stat | p-value |
 |--------|---|--------|---------|
-| Mkt-RF | +0.1024 | +1.80 | 0.0728  |
-| SMB | -0.2338 | -2.39 | 0.0173 * |
-| HML | +0.4762 | +5.40 | 0.0000 *** |
-| RMW | -0.0429 | -0.40 | 0.6912  |
-| CMA | +0.1195 | +1.04 | 0.2983  |
+| Mkt-RF | +1.6661 | +6.95 | 0.0000 *** |
+| SMB | +0.5840 | +1.42 | 0.1569  |
+| HML | -0.0990 | -0.27 | 0.7909  |
+| RMW | -2.7137 | -5.99 | 0.0000 *** |
+| CMA | -0.5822 | -1.20 | 0.2293  |
 
-_Interpretation: Modest factor fit_
+_Interpretation: Small-cap tilt; Weak profitability; Aggressive investment_
 
-### WEN
+### API
 
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.1995 (adjusted = 0.1892)
-- Alpha (annualized): **-49.11%** (daily = -0.001949, t = -1.88, p = 0.0607)
-
-Factor loadings:
-
-| Factor | β | t-stat | p-value |
-|--------|---|--------|---------|
-| Mkt-RF | +0.5967 | +5.45 | 0.0000 *** |
-| SMB | +0.7963 | +4.23 | 0.0000 *** |
-| HML | +0.2343 | +1.38 | 0.1682  |
-| RMW | +0.3443 | +1.66 | 0.0982  |
-| CMA | +0.8990 | +4.07 | 0.0001 *** |
-
-_Interpretation: Small-cap tilt; Conservative investment; Modest factor fit_
-
-### SMCI
-
-- Period: `2024-08-30` to `2026-03-31` (396 obs)
-- R² = 0.2503 (adjusted = 0.2407)
-- Alpha (annualized): **-7.12%** (daily = -0.000283, t = -0.10, p = 0.9191)
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.0632 (adjusted = 0.0511)
+- Alpha (annualized): **+82.91%** (daily = +0.003290, t = +0.97, p = 0.3323)
 
 Factor loadings:
 
 | Factor | β | t-stat | p-value |
 |--------|---|--------|---------|
-| Mkt-RF | +1.1985 | +4.08 | 0.0001 *** |
-| SMB | +0.2443 | +0.48 | 0.6286  |
-| HML | -2.0542 | -4.51 | 0.0000 *** |
-| RMW | -2.0463 | -3.67 | 0.0003 *** |
-| CMA | +1.9816 | +3.35 | 0.0009 *** |
+| Mkt-RF | +0.0764 | +0.21 | 0.8311  |
+| SMB | +0.6643 | +1.08 | 0.2808  |
+| HML | -1.3398 | -2.40 | 0.0166 * |
+| RMW | -1.6137 | -2.39 | 0.0175 * |
+| CMA | +0.7697 | +1.07 | 0.2871  |
 
-_Interpretation: Growth tilt; Weak profitability; Conservative investment_
+_Interpretation: Small-cap tilt; Growth tilt; Weak profitability; Conservative investment; Modest factor fit_
+
+### ARR
+
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.2712 (adjusted = 0.2617)
+- Alpha (annualized): **-7.54%** (daily = -0.000299, t = -0.45, p = 0.6520)
+
+Factor loadings:
+
+| Factor | β | t-stat | p-value |
+|--------|---|--------|---------|
+| Mkt-RF | +0.6288 | +8.98 | 0.0000 *** |
+| SMB | +0.0899 | +0.75 | 0.4553  |
+| HML | +0.2108 | +1.93 | 0.0537  |
+| RMW | -0.2953 | -2.23 | 0.0261 * |
+| CMA | +0.3818 | +2.70 | 0.0072 ** |
+
+_Interpretation: Neutral profile_
+
+### FCF
+
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.7077 (adjusted = 0.7039)
+- Alpha (annualized): **-9.78%** (daily = -0.000388, t = -0.79, p = 0.4328)
+
+Factor loadings:
+
+| Factor | β | t-stat | p-value |
+|--------|---|--------|---------|
+| Mkt-RF | +0.9921 | +19.01 | 0.0000 *** |
+| SMB | +0.9653 | +10.77 | 0.0000 *** |
+| HML | +1.2061 | +14.85 | 0.0000 *** |
+| RMW | +0.2008 | +2.04 | 0.0424 * |
+| CMA | -0.2598 | -2.47 | 0.0141 * |
+
+_Interpretation: Small-cap tilt; Value tilt_
+
+### GRRR
+
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.1390 (adjusted = 0.1278)
+- Alpha (annualized): **+120.81%** (daily = +0.004794, t = +1.27, p = 0.2040)
+
+Factor loadings:
+
+| Factor | β | t-stat | p-value |
+|--------|---|--------|---------|
+| Mkt-RF | +1.4280 | +3.59 | 0.0004 *** |
+| SMB | +0.1089 | +0.16 | 0.8735  |
+| HML | -0.7957 | -1.28 | 0.1997  |
+| RMW | -2.5351 | -3.37 | 0.0008 *** |
+| CMA | +1.1715 | +1.46 | 0.1453  |
+
+_Interpretation: Growth tilt; Weak profitability; Conservative investment; Modest factor fit_
+
+### OPEN
+
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.0982 (adjusted = 0.0865)
+- Alpha (annualized): **+121.93%** (daily = +0.004838, t = +1.13, p = 0.2598)
+
+Factor loadings:
+
+| Factor | β | t-stat | p-value |
+|--------|---|--------|---------|
+| Mkt-RF | +1.2711 | +2.81 | 0.0053 ** |
+| SMB | +1.9613 | +2.52 | 0.0121 * |
+| HML | -0.6435 | -0.91 | 0.3617  |
+| RMW | -1.3201 | -1.54 | 0.1235  |
+| CMA | +1.4049 | +1.54 | 0.1249  |
+
+_Interpretation: Small-cap tilt; Growth tilt; Weak profitability; Conservative investment; Modest factor fit_
+
+### HOOD
+
+- Period: `2024-09-06` to `2026-03-31` (392 obs)
+- R² = 0.5611 (adjusted = 0.5554)
+- Alpha (annualized): **+61.21%** (daily = +0.002429, t = +1.54, p = 0.1253)
+
+Factor loadings:
+
+| Factor | β | t-stat | p-value |
+|--------|---|--------|---------|
+| Mkt-RF | +2.2616 | +13.54 | 0.0000 *** |
+| SMB | -0.1720 | -0.60 | 0.5491  |
+| HML | +0.0223 | +0.09 | 0.9317  |
+| RMW | -2.4949 | -7.91 | 0.0000 *** |
+| CMA | -0.5885 | -1.75 | 0.0814  |
+
+_Interpretation: Weak profitability; Aggressive investment_
 
 ---
 ### Methodology
