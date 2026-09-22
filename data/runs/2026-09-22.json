@@ -1,166 +1,174 @@
 {
   "date": "2026-09-22",
-  "fetched_at": "2026-09-22T00:13:14Z",
+  "fetched_at": "2026-09-22T23:41:44Z",
   "combined_top10": [
     {
-      "ticker": "META",
-      "count": 748,
-      "sources_count": 4
-    },
-    {
-      "ticker": "AMD",
-      "count": 587,
-      "sources_count": 6
-    },
-    {
       "ticker": "SPY",
-      "count": 573,
-      "sources_count": 5
-    },
-    {
-      "ticker": "QQQ",
-      "count": 355,
+      "count": 565,
       "sources_count": 4
     },
     {
       "ticker": "MU",
-      "count": 353,
+      "count": 455,
       "sources_count": 6
     },
     {
-      "ticker": "NVDA",
-      "count": 232,
+      "ticker": "META",
+      "count": 386,
+      "sources_count": 5
+    },
+    {
+      "ticker": "QQQ",
+      "count": 236,
+      "sources_count": 3
+    },
+    {
+      "ticker": "AMD",
+      "count": 182,
       "sources_count": 6
     },
     {
       "ticker": "SNDK",
-      "count": 170,
+      "count": 159,
       "sources_count": 4
     },
     {
+      "ticker": "NVDA",
+      "count": 156,
+      "sources_count": 6
+    },
+    {
       "ticker": "DTE",
-      "count": 155,
+      "count": 119,
       "sources_count": 6
     },
     {
-      "ticker": "INTC",
-      "count": 150,
+      "ticker": "GOOG",
+      "count": 110,
       "sources_count": 6
     },
     {
-      "ticker": "AVGO",
-      "count": 109,
-      "sources_count": 6
+      "ticker": "MSFT",
+      "count": 89,
+      "sources_count": 4
     }
   ],
   "by_source": {
     "apewisdom:all-stocks": [
       {
-        "ticker": "META",
-        "count": 379
-      },
-      {
-        "ticker": "AMD",
-        "count": 296
-      },
-      {
         "ticker": "SPY",
-        "count": 290
-      },
-      {
-        "ticker": "QQQ",
-        "count": 182
+        "count": 291
       },
       {
         "ticker": "MU",
-        "count": 176
+        "count": 227
+      },
+      {
+        "ticker": "META",
+        "count": 197
+      },
+      {
+        "ticker": "QQQ",
+        "count": 122
+      },
+      {
+        "ticker": "AMD",
+        "count": 91
       },
       {
         "ticker": "NVDA",
-        "count": 117
+        "count": 80
       },
       {
         "ticker": "SNDK",
-        "count": 85
+        "count": 80
       },
       {
         "ticker": "DTE",
-        "count": 79
+        "count": 59
       },
       {
-        "ticker": "INTC",
-        "count": 76
+        "ticker": "GOOG",
+        "count": 56
       },
       {
-        "ticker": "AVGO",
-        "count": 54
+        "ticker": "MSFT",
+        "count": 47
       }
     ],
     "apewisdom:wallstreetbets": [
       {
-        "ticker": "META",
-        "count": 363
-      },
-      {
         "ticker": "SPY",
-        "count": 272
-      },
-      {
-        "ticker": "AMD",
-        "count": 266
+        "count": 263
       },
       {
         "ticker": "MU",
-        "count": 173
+        "count": 219
+      },
+      {
+        "ticker": "META",
+        "count": 179
       },
       {
         "ticker": "QQQ",
-        "count": 166
-      },
-      {
-        "ticker": "NVDA",
-        "count": 92
+        "count": 111
       },
       {
         "ticker": "SNDK",
-        "count": 82
+        "count": 76
+      },
+      {
+        "ticker": "AMD",
+        "count": 74
       },
       {
         "ticker": "DTE",
-        "count": 71
+        "count": 56
       },
       {
-        "ticker": "INTC",
-        "count": 69
+        "ticker": "NVDA",
+        "count": 55
       },
       {
-        "ticker": "RKLB",
-        "count": 48
+        "ticker": "GOOG",
+        "count": 47
+      },
+      {
+        "ticker": "MSFT",
+        "count": 38
       }
     ],
     "apewisdom:stocks": [
       {
+        "ticker": "VOO",
+        "count": 15
+      },
+      {
         "ticker": "AMD",
-        "count": 22
+        "count": 14
       },
       {
         "ticker": "NVDA",
-        "count": 18
+        "count": 12
       },
       {
-        "ticker": "AVGO",
-        "count": 13
-      },
-      {
-        "ticker": "API",
-        "count": 5
-      },
-      {
-        "ticker": "CRDO",
-        "count": 5
+        "ticker": "MCD",
+        "count": 8
       },
       {
         "ticker": "META",
+        "count": 7
+      },
+      {
+        "ticker": "VTI",
+        "count": 7
+      },
+      {
+        "ticker": "MU",
+        "count": 6
+      },
+      {
+        "ticker": "FCF",
         "count": 5
       },
       {
@@ -168,91 +176,59 @@
         "count": 5
       },
       {
-        "ticker": "QQQM",
+        "ticker": "AVGO",
         "count": 4
-      },
-      {
-        "ticker": "SOXX",
-        "count": 4
-      },
-      {
-        "ticker": "APP",
-        "count": 3
       }
     ],
     "apewisdom:investing": [
       {
-        "ticker": "VOO",
-        "count": 10
-      },
-      {
-        "ticker": "CD",
-        "count": 7
-      },
-      {
-        "ticker": "QQQ",
-        "count": 4
-      },
-      {
-        "ticker": "SPMO",
-        "count": 4
-      },
-      {
-        "ticker": "SPY",
-        "count": 4
-      },
-      {
-        "ticker": "QQQM",
-        "count": 3
-      },
-      {
-        "ticker": "API",
-        "count": 2
+        "ticker": "TSLA",
+        "count": 8
       },
       {
         "ticker": "NVDA",
+        "count": 7
+      },
+      {
+        "ticker": "SPY",
+        "count": 6
+      },
+      {
+        "ticker": "VTI",
+        "count": 4
+      },
+      {
+        "ticker": "AAPL",
+        "count": 3
+      },
+      {
+        "ticker": "GOOG",
+        "count": 3
+      },
+      {
+        "ticker": "MSFT",
+        "count": 3
+      },
+      {
+        "ticker": "VOO",
+        "count": 3
+      },
+      {
+        "ticker": "AMZN",
         "count": 2
       },
       {
-        "ticker": "SGOV",
-        "count": 2
-      },
-      {
-        "ticker": "TSLA",
+        "ticker": "CD",
         "count": 2
       }
     ],
     "apewisdom:Daytrading": [
       {
-        "ticker": "RR",
-        "count": 7
-      },
-      {
-        "ticker": "ES",
+        "ticker": "BE",
         "count": 4
       },
       {
-        "ticker": "ATR",
-        "count": 3
-      },
-      {
-        "ticker": "DTE",
-        "count": 2
-      },
-      {
-        "ticker": "NVDA",
-        "count": 2
-      },
-      {
-        "ticker": "SMC",
-        "count": 2
-      },
-      {
-        "ticker": "SPY",
-        "count": 2
-      },
-      {
-        "ticker": "YOU",
+        "ticker": "ES",
         "count": 2
       },
       {
@@ -261,6 +237,30 @@
       },
       {
         "ticker": "ALL",
+        "count": 1
+      },
+      {
+        "ticker": "AMD",
+        "count": 1
+      },
+      {
+        "ticker": "AMZN",
+        "count": 1
+      },
+      {
+        "ticker": "AVGO",
+        "count": 1
+      },
+      {
+        "ticker": "BP",
+        "count": 1
+      },
+      {
+        "ticker": "CBOE",
+        "count": 1
+      },
+      {
+        "ticker": "CC",
         "count": 1
       }
     ],
@@ -302,25 +302,29 @@
         "count": 1
       },
       {
-        "ticker": "DXC",
+        "ticker": "EU",
         "count": 1
       }
     ],
     "apewisdom:pennystocks": [
       {
+        "ticker": "JAGX",
+        "count": 13
+      },
+      {
+        "ticker": "ORBS",
+        "count": 10
+      },
+      {
         "ticker": "GLND",
         "count": 6
       },
       {
-        "ticker": "NUAI",
-        "count": 3
-      },
-      {
-        "ticker": "HELP",
+        "ticker": "CTNT",
         "count": 2
       },
       {
-        "ticker": "NCPL",
+        "ticker": "FLNA",
         "count": 2
       },
       {
@@ -340,11 +344,7 @@
         "count": 1
       },
       {
-        "ticker": "BP",
-        "count": 1
-      },
-      {
-        "ticker": "CC",
+        "ticker": "BC",
         "count": 1
       }
     ]
