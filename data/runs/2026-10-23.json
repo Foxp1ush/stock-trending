@@ -1,55 +1,55 @@
 {
   "date": "2026-10-23",
-  "fetched_at": "2026-10-23T00:04:11Z",
+  "fetched_at": "2026-10-23T23:54:44Z",
   "combined_top10": [
     {
       "ticker": "SPY",
-      "count": 641,
+      "count": 525,
       "sources_count": 6
     },
     {
       "ticker": "MU",
-      "count": 527,
-      "sources_count": 4
+      "count": 360,
+      "sources_count": 3
     },
     {
       "ticker": "QQQ",
-      "count": 489,
-      "sources_count": 5
-    },
-    {
-      "ticker": "META",
-      "count": 453,
-      "sources_count": 7
-    },
-    {
-      "ticker": "WDC",
-      "count": 322,
-      "sources_count": 2
-    },
-    {
-      "ticker": "MRNA",
-      "count": 287,
-      "sources_count": 2
-    },
-    {
-      "ticker": "TSLA",
-      "count": 261,
+      "count": 259,
       "sources_count": 4
     },
     {
-      "ticker": "NBIS",
-      "count": 258,
-      "sources_count": 7
+      "ticker": "NVDA",
+      "count": 196,
+      "sources_count": 3
     },
     {
       "ticker": "BE",
-      "count": 247,
+      "count": 166,
+      "sources_count": 2
+    },
+    {
+      "ticker": "ASTS",
+      "count": 126,
+      "sources_count": 6
+    },
+    {
+      "ticker": "NBIS",
+      "count": 122,
+      "sources_count": 7
+    },
+    {
+      "ticker": "TSLA",
+      "count": 119,
       "sources_count": 3
     },
     {
       "ticker": "SOXL",
-      "count": 226,
+      "count": 115,
+      "sources_count": 3
+    },
+    {
+      "ticker": "GOOG",
+      "count": 114,
       "sources_count": 4
     }
   ],
@@ -57,168 +57,168 @@
     "apewisdom:all-stocks": [
       {
         "ticker": "SPY",
-        "count": 323
+        "count": 264
       },
       {
         "ticker": "MU",
-        "count": 266
+        "count": 181
       },
       {
         "ticker": "QQQ",
-        "count": 246
+        "count": 130
       },
       {
-        "ticker": "META",
-        "count": 227
-      },
-      {
-        "ticker": "WDC",
-        "count": 162
-      },
-      {
-        "ticker": "MRNA",
-        "count": 147
-      },
-      {
-        "ticker": "TSLA",
-        "count": 133
-      },
-      {
-        "ticker": "NBIS",
-        "count": 128
+        "ticker": "NVDA",
+        "count": 100
       },
       {
         "ticker": "BE",
-        "count": 124
+        "count": 84
+      },
+      {
+        "ticker": "ASTS",
+        "count": 62
+      },
+      {
+        "ticker": "TSLA",
+        "count": 61
+      },
+      {
+        "ticker": "NBIS",
+        "count": 60
       },
       {
         "ticker": "SOXL",
-        "count": 113
+        "count": 58
+      },
+      {
+        "ticker": "GOOG",
+        "count": 57
       }
     ],
     "apewisdom:wallstreetbets": [
       {
         "ticker": "SPY",
-        "count": 311
+        "count": 252
       },
       {
         "ticker": "MU",
-        "count": 258
+        "count": 178
       },
       {
         "ticker": "QQQ",
-        "count": 235
+        "count": 127
       },
       {
-        "ticker": "META",
-        "count": 212
-      },
-      {
-        "ticker": "WDC",
-        "count": 160
-      },
-      {
-        "ticker": "MRNA",
-        "count": 140
-      },
-      {
-        "ticker": "NBIS",
-        "count": 125
+        "ticker": "NVDA",
+        "count": 95
       },
       {
         "ticker": "BE",
-        "count": 121
+        "count": 82
       },
       {
         "ticker": "TSLA",
-        "count": 120
+        "count": 57
       },
       {
         "ticker": "SOXL",
-        "count": 107
+        "count": 56
+      },
+      {
+        "ticker": "NBIS",
+        "count": 55
+      },
+      {
+        "ticker": "GOOG",
+        "count": 54
+      },
+      {
+        "ticker": "DTE",
+        "count": 53
       }
     ],
     "apewisdom:stocks": [
       {
-        "ticker": "VOO",
+        "ticker": "ASTS",
         "count": 12
       },
       {
+        "ticker": "ONDS",
+        "count": 11
+      },
+      {
+        "ticker": "AMZN",
+        "count": 6
+      },
+      {
         "ticker": "META",
-        "count": 10
-      },
-      {
-        "ticker": "NKE",
-        "count": 9
-      },
-      {
-        "ticker": "TSLA",
-        "count": 7
-      },
-      {
-        "ticker": "QQQ",
-        "count": 6
-      },
-      {
-        "ticker": "RSP",
-        "count": 6
-      },
-      {
-        "ticker": "VXUS",
-        "count": 6
-      },
-      {
-        "ticker": "SOXL",
         "count": 5
       },
       {
-        "ticker": "FCF",
+        "ticker": "SPY",
         "count": 4
       },
       {
-        "ticker": "GOOGL",
+        "ticker": "UNH",
         "count": 4
+      },
+      {
+        "ticker": "AJG",
+        "count": 3
+      },
+      {
+        "ticker": "NBIS",
+        "count": 3
+      },
+      {
+        "ticker": "PS",
+        "count": 3
+      },
+      {
+        "ticker": "API",
+        "count": 2
       }
     ],
     "apewisdom:investing": [
       {
-        "ticker": "CD",
-        "count": 8
-      },
-      {
-        "ticker": "FA",
-        "count": 8
+        "ticker": "SPMO",
+        "count": 21
       },
       {
         "ticker": "LMT",
-        "count": 4
-      },
-      {
-        "ticker": "SPMO",
-        "count": 4
+        "count": 6
       },
       {
         "ticker": "VOO",
-        "count": 4
+        "count": 5
       },
       {
-        "ticker": "CC",
-        "count": 3
-      },
-      {
-        "ticker": "SIM",
-        "count": 3
+        "ticker": "VT",
+        "count": 5
       },
       {
         "ticker": "VTI",
+        "count": 4
+      },
+      {
+        "ticker": "KLAC",
         "count": 3
       },
       {
-        "ticker": "GLD",
-        "count": 2
+        "ticker": "LRCX",
+        "count": 3
       },
       {
-        "ticker": "MFA",
+        "ticker": "SMA",
+        "count": 3
+      },
+      {
+        "ticker": "SPY",
+        "count": 3
+      },
+      {
+        "ticker": "PAC",
         "count": 2
       }
     ],
@@ -244,10 +244,6 @@
         "count": 1
       },
       {
-        "ticker": "CIFR",
-        "count": 1
-      },
-      {
         "ticker": "CRCL",
         "count": 1
       },
@@ -261,6 +257,10 @@
       },
       {
         "ticker": "CSV",
+        "count": 1
+      },
+      {
+        "ticker": "DC",
         "count": 1
       }
     ],
@@ -309,22 +309,22 @@
     "apewisdom:pennystocks": [
       {
         "ticker": "XXII",
-        "count": 20
+        "count": 12
       },
       {
-        "ticker": "AVEX",
-        "count": 8
+        "ticker": "AIXI",
+        "count": 6
       },
       {
         "ticker": "BATL",
-        "count": 3
-      },
-      {
-        "ticker": "AHT",
         "count": 2
       },
       {
-        "ticker": "GP",
+        "ticker": "BETR",
+        "count": 2
+      },
+      {
+        "ticker": "LABT",
         "count": 2
       },
       {
@@ -332,11 +332,11 @@
         "count": 2
       },
       {
-        "ticker": "NUAI",
-        "count": 2
+        "ticker": "AARD",
+        "count": 1
       },
       {
-        "ticker": "ABAT",
+        "ticker": "ACRV",
         "count": 1
       },
       {
@@ -360,19 +360,19 @@
     },
     "apewisdom:stocks": {
       "raw_items": 50,
-      "valid_items": 45
+      "valid_items": 46
     },
     "apewisdom:investing": {
       "raw_items": 50,
-      "valid_items": 45
+      "valid_items": 46
     },
     "apewisdom:Daytrading": {
       "raw_items": 50,
       "valid_items": 45
     },
     "apewisdom:Shortsqueeze": {
-      "raw_items": 48,
-      "valid_items": 46
+      "raw_items": 47,
+      "valid_items": 45
     },
     "apewisdom:pennystocks": {
       "raw_items": 50,
