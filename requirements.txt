@@ -8,3 +8,6 @@ pyarrow==18.1.0
 # pandas-datareader 0.10.0이 Python 3.12+ 에서 제거된 distutils를 참조하므로
 # setuptools 70 미만(distutils shim 포함)을 명시. 로컬에선 우연히 통과하지만 CI에서 깨짐.
 setuptools<70
+# pandas-datareader 0.10.0이 six를 import하지만 의존성으로 선언하지 않음.
+# 다른 패키지가 끌어오던 six가 빠지면서 CI에서 ModuleNotFoundError → 직접 명시.
+six==1.17.0
