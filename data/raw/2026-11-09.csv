@@ -1,0 +1,351 @@
+date,fetched_at,source,rank,ticker,name,mentions,upvotes,rank_24h_ago,mentions_24h_ago
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,1,NVDA,NVIDIA,412,4151,2,93
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,2,SPY,SPDR S&amp;P 500 ETF Trust,144,530,1,69
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,3,AMD,AMD,50,273,12,16
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,4,QQQ,Invesco QQQ ETF,49,118,3,32
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,5,MU,Micron Technology,48,91,4,39
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,6,NBIS,Nebius Group,46,499,8,18
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,7,RKLB,Rocket Lab USA,38,309,10,18
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,8,ASTS,AST SpaceMobile,33,1775,7,22
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,9,CRWV,CoreWeave,25,40,17,12
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,10,RDDT,Reddit,23,253,11,16
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,11,GOOG,Alphabet (Google),21,34,24,14
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,12,DTE,DTE Energy,20,43,5,40
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,13,SMCI,Supermicro,20,135,76,2
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,14,AVGO,Broadcom,19,47,28,6
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,15,SOXL,Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share,19,29,19,11
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,16,MSFT,Microsoft,18,75,9,22
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,17,SNDK,Sandisk,18,43,14,22
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,18,IQ,iQIYI,17,135,25,11
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,19,CIA,Citizens Inc,17,34,22,16
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,20,IREN,Iris Energy,16,47,26,11
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,21,INTC,Intel,15,8,27,10
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,22,ET,Energy Transfer Partners,13,22,67,2
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,23,SPCX,SpaceX,13,47,13,16
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,24,TSLA,Tesla,12,73,18,10
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,25,YOU,CLEAR Secure,12,23,29,13
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,26,AMZN,Amazon,11,67,32,13
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,27,IP,International Paper,11,504,52,5
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,28,VOO,Vanguard S&amp;P 500 ETF,11,36,6,31
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,29,ALL,Allstate,10,11,150,3
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,30,ES,Eversource Energy,10,37,51,6
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,31,IT,Gartner,10,30,36,9
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,32,HR,Healthcare Realty,9,49,79,3
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,33,AAPL,Apple,8,13,15,12
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,34,AM,Antero Midstream,8,174,34,7
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,35,GOOGL,Alphabet (Google),8,16,23,7
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,36,PR,Permian Resources,8,39,117,1
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,37,EU,enCore Energy,8,18,61,1
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,38,NOW,ServiceNow,7,24,53,4
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,39,SO,Southern Company,7,17,224,1
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,40,ON,ON Semiconductor,7,19,307,1
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,41,RTX,Raytheon Technologies,7,48,423,2
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,42,USO,United States Commodity Funds LLC - United States Oil Fund,7,14,43,6
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,43,TTWO,Take 2 Interactive,6,8,228,2
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,44,AGI,Alamos Gold,6,223,70,3
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,45,DC,Dakota Gold,6,12,31,7
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,46,HBM,Hudbay Minerals,5,74,439,1
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,47,JD,Jingdong Mall,5,13,488,1
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,48,IG,Principal Exchange-Traded Funds - Principal Investment Grade Corporate,5,13,542,1
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,49,CD,Chindata,5,6,47,6
+2026-11-09,2026-11-09T01:05:36Z,apewisdom:all-stocks,50,META,Meta Platforms (Facebook),5,6,116,3
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,1,NVDA,NVIDIA,372,3477,2,80
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,2,SPY,SPDR S&amp;P 500 ETF Trust,122,455,1,51
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,3,MU,Micron Technology,40,71,4,30
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,4,QQQ,Invesco QQQ ETF,40,108,3,22
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,5,AMD,AMD,34,172,16,11
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,6,ASTS,AST SpaceMobile,25,1742,5,18
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,7,NBIS,Nebius Group,18,36,8,15
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,8,CRWV,CoreWeave,17,31,14,11
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,9,GOOG,Alphabet (Google),16,25,24,12
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,10,IQ,iQIYI,16,134,18,11
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,11,SOXL,Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share,15,24,17,10
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,12,RKLB,Rocket Lab USA,14,15,11,13
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,13,RDDT,Reddit,14,32,9,14
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,14,MSFT,Microsoft,13,69,6,16
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,15,ET,Energy Transfer Partners,13,22,44,2
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,16,TSLA,Tesla,12,73,21,7
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,17,AMZN,Amazon,11,67,40,8
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,18,SMCI,Supermicro,11,119,69,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,19,IREN,Iris Energy,11,25,26,8
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,20,SNDK,Sandisk,11,32,10,18
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,21,AVGO,Broadcom,10,18,51,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,22,DTE,DTE Energy,10,27,7,22
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,23,CIA,Citizens Inc,10,18,23,14
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,24,SPCX,SpaceX,8,12,12,12
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,25,VOO,Vanguard S&amp;P 500 ETF,8,28,13,15
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,26,YOU,CLEAR Secure,8,30,30,7
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,27,INTC,Intel,7,11,22,8
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,28,IP,International Paper,7,500,52,4
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,29,IT,Gartner,7,28,28,8
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,30,RTX,Raytheon Technologies,7,48,326,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,31,AM,Antero Midstream,7,13,31,5
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,32,GOOGL,Alphabet (Google),7,15,25,5
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,33,PR,Permian Resources,7,38,660,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,34,ALL,Allstate,6,14,112,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,35,TTWO,Take 2 Interactive,6,8,172,2
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,36,AAPL,Apple,5,8,15,8
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,37,NOW,ServiceNow,5,22,42,2
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,38,ON,ON Semiconductor,5,15,231,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,39,HR,Healthcare Realty,5,42,272,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,40,JD,Jingdong Mall,5,13,377,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,41,EU,enCore Energy,5,24,667,
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,42,NNN,National Retail Properties,4,11,57,3
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,43,ABG,Asbury Automotive Group,4,121,571,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,44,CD,Chindata,4,6,612,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,45,HIMS,Hims &amp; Hers Health,4,-2,615,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,46,META,Meta Platforms (Facebook),4,5,83,2
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,47,MA,Mastercard,3,9,49,3
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,48,ES,Eversource Energy,3,5,131,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,49,SO,Southern Company,3,6,169,1
+2026-11-09,2026-11-09T01:05:37Z,apewisdom:wallstreetbets,50,STX,Seagate Technology,3,8,54,3
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,1,NVDA,NVIDIA,30,656,1,5
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,2,NBIS,Nebius Group,25,460,366,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,3,RKLB,Rocket Lab USA,22,294,5,3
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,4,AMD,AMD,13,93,3,2
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,5,AVGO,Broadcom,8,29,2,5
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,6,ASTS,AST SpaceMobile,7,33,288,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,7,MU,Micron Technology,6,17,72,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,8,SMCI,Supermicro,6,16,120,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,9,RDDT,Reddit,6,210,354,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,10,SNDK,Sandisk,6,11,375,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,11,MSFT,Microsoft,4,6,8,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,12,SPY,SPDR S&amp;P 500 ETF Trust,4,18,4,2
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,13,CRWV,CoreWeave,4,10,368,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,14,GOOG,Alphabet (Google),3,8,11,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,15,INTC,Intel,3,4,18,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,16,SPCX,SpaceX,3,34,219,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,17,SOXL,Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share,3,5,223,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,18,IREN,Iris Energy,3,21,309,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,19,AAPL,Apple,2,5,9,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,20,ALL,Allstate,2,-5,35,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,21,VC,Visteon,2,14,114,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,22,HBM,Hudbay Minerals,2,27,180,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,23,AMZN,Amazon,1,1,10,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,24,JNJ,Johnson & Johnson,1,1,12,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,25,WMT,Walmart,1,3,13,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,26,MA,Mastercard,1,1,14,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,27,TSLA,Tesla,1,1,16,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,28,TSM,TSMC,1,2,17,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,29,KO,Coca-Cola,1,4,19,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,30,CSCO,Cisco,1,1,21,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,31,ADBE,Adobe,1,2,23,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,32,ORCL,Oracle,1,5,24,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,33,NFLX,Netflix,1,1,25,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,34,SAP,SAP,1,2,26,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,35,MCD,McDonald,1,1,27,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,36,COST,Costco,1,1,28,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,37,PYPL,PayPal,1,3,29,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,38,LLY,Eli Lilly,1,3,31,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,39,IBM,IBM,1,7,32,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,40,MO,Altria Group,1,1,36,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,41,AMAT,Applied Materials,1,2,39,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,42,ANET,Arista Networks,1,12,41,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,43,ADP,Automatic Data Processing,1,2,42,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,44,CAT,Caterpillar,1,-6,44,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,45,CNC,Centene,1,-2,45,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,46,CI,Cigna,1,1,0,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,47,CVS,CVS Health,1,4,48,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,48,DE,Deere & Company,1,1,49,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,49,DOW,Dow,1,1,50,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:stocks,50,DTE,DTE Energy,1,-1,51,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,1,NVDA,NVIDIA,2,5,12,3
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,2,MSFT,Microsoft,1,5,15,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,3,AAPL,Apple,1,0,16,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,4,AMZN,Amazon,1,0,17,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,5,GOOG,Alphabet (Google),1,1,18,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,6,WMT,Walmart,1,6,19,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,7,PG,Procter & Gamble,1,1,20,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,8,TSLA,Tesla,1,12,21,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,9,TSM,TSMC,1,3,22,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,10,INTC,Intel,1,1,23,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,11,HD,Home Depot,1,1,24,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,12,KO,Coca-Cola,1,1,25,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,13,BA,Boeing,1,2,26,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,14,AMD,AMD,1,76,27,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,15,ADBE,Adobe,1,1,0,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,16,ORCL,Oracle,1,1,28,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,17,NFLX,Netflix,1,0,29,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,18,MCD,McDonald,1,0,30,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,19,COST,Costco,1,0,31,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,20,ABBV,AbbVie,1,1,32,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,21,LLY,Eli Lilly,1,1,33,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,22,UNP,Union Pacific Corporation,1,1,35,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,23,AVGO,Broadcom,1,1,36,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,24,ALL,Allstate,1,1,37,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,25,CAT,Caterpillar,1,3,38,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,26,DE,Deere & Company,1,0,39,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,27,DOW,Dow,1,2,40,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,28,DTE,DTE Energy,1,1,41,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,29,IP,International Paper,1,2,43,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,30,LRCX,Lam Research,1,2,44,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,31,MU,Micron Technology,1,76,45,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,32,NOC,Northrop Grumman,1,1,46,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,33,PH,Parker-Hannifin,1,4,47,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,34,RMD,ResMed,1,1,48,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,35,NOW,ServiceNow,1,2,49,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,36,SO,Southern Company,1,2,50,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,37,SBUX,Starbucks,1,1,51,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,38,JPM,JPMorgan Chase,1,0,52,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,39,UNH,UnitedHealth,1,2,53,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,40,CRM,Salesforce,1,1,0,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,41,ACN,Accenture,1,1,54,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,42,HON,Honeywell,1,1,55,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,43,RE,Everest Re,1,1,58,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,44,IT,Gartner,1,-2,59,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,45,MS,Morgan Stanley,1,1,60,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,46,PEG,PSEG,1,0,61,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,47,SPG,Simon Property Group,1,3,62,1
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,48,WM,Waste Management,1,1,63,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,49,WELL,Welltower,1,1,64,
+2026-11-09,2026-11-09T01:05:38Z,apewisdom:investing,50,TD,Toronto Dominion Bank,1,0,65,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,1,ES,Eversource Energy,5,30,2,4
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,2,SPY,SPDR S&amp;P 500 ETF Trust,4,7,5,4
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,3,MT,ArcelorMittal,2,4,3,3
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,4,ATR,AptarGroup,2,4,72,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,5,QQQ,Invesco QQQ ETF,2,4,97,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,6,YOU,CLEAR Secure,2,5,103,2
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,7,AKA,a.k.a. Brands,2,3,0,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,8,TP,Ticketplus,2,2,139,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,9,MSFT,Microsoft,1,1,6,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,10,AAPL,Apple,1,0,7,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,11,AMZN,Amazon,1,1,8,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,12,GOOG,Alphabet (Google),1,0,9,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,13,MA,Mastercard,1,1,10,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,14,TSLA,Tesla,1,1,11,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,15,TSM,TSMC,1,3,12,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,16,INTC,Intel,1,3,13,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,17,NVDA,NVIDIA,1,2,14,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,18,AMD,AMD,1,2,15,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,19,ORCL,Oracle,1,1,16,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,20,IBM,IBM,1,1,17,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,21,AVGO,Broadcom,1,1,18,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,22,ALL,Allstate,1,16,19,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,23,MO,Altria Group,1,1,20,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,24,AMP,Ameriprise Financial,1,3,21,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,25,ADP,Automatic Data Processing,1,0,22,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,26,CBOE,Cboe,1,1,0,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,27,CL,Colgate-Palmolive,1,1,24,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,28,CVS,CVS Health,1,1,25,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,29,DAL,Delta Air Lines,1,1,26,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,30,DOW,Dow,1,1,27,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,31,DTE,DTE Energy,1,4,1,2
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,32,GL,Globe Life,1,5,28,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,33,IP,International Paper,1,1,29,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,34,MU,Micron Technology,1,1,30,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,35,PSA,Public Storage,1,2,31,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,36,QCOM,QUALCOMM,1,17,32,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,37,NOW,ServiceNow,1,3,33,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,38,SO,Southern Company,1,8,34,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,39,JPM,JPMorgan Chase,1,2,0,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,40,CRM,Salesforce,1,1,35,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,41,IT,Gartner,1,1,37,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,42,MS,Morgan Stanley,1,1,38,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,43,RL,Ralph Lauren,1,2,0,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,44,TGT,Target,1,1,39,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,45,TD,Toronto Dominion Bank,1,1,40,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,46,VC,Visteon,1,1,41,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,47,RARE,Ultragenyx,1,2,42,1
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,48,SMCI,Supermicro,1,16,43,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,49,SMBC,Southern Missouri Bancorp,1,1,0,
+2026-11-09,2026-11-09T01:05:39Z,apewisdom:Daytrading,50,ON,ON Semiconductor,1,12,44,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,1,ASTS,AST SpaceMobile,1,-4,9,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,2,IREN,Iris Energy,1,2,2,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,3,HTZ,Hertz,1,1,3,1
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,4,DTC,Solo Brands,1,2,4,1
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,5,RKLB,Rocket Lab USA,1,1,5,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,6,LEU,Centrus Energy,1,2,6,1
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,7,UP,Wheels Up,1,2,7,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,8,NP,Neenah,1,2,8,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,9,YOU,CLEAR Secure,1,1,1,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,10,AMC,AMC Entertainment,1,1,10,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,11,QS,QuantumScape,1,2,11,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,12,MC,Moelis &amp; Company,1,2,12,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,13,SHO,Sunstone Hotel Investors,1,5,13,1
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,14,PLCE,The Children's Place,1,0,14,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,15,GME,GameStop,1,3,15,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,16,PR,Permian Resources,1,1,28,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,17,SNDK,Sandisk,1,84,19,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,18,TE,T1 Energy,1,2,20,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,19,NBIS,Nebius Group,1,0,21,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,20,LOT,Lotus Technology,1,1,22,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,21,RDDT,Reddit,1,2,23,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,22,LINK,Interlink Electronics,1,1,25,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,23,EU,enCore Energy,1,2,26,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,24,SLS,Sellas Life Sciences,1,2,16,1
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,25,PRME,Prime Medicine,1,1,29,1
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,26,API,Agora.io,1,50,30,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,27,SOUN,SoundHound AI,1,1,31,1
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,28,META,Meta Platforms (Facebook),1,2,33,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,29,JW,Justworks,1,1,34,1
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,30,IBRX,ImmunityBio,1,1,0,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,31,GL,Globe Life,1,2,43,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,32,IQ,iQIYI,1,-1,36,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,33,SMCI,Supermicro,1,3,38,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,34,IT,Gartner,1,2,39,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,35,NOW,ServiceNow,1,0,40,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,36,MU,Micron Technology,1,84,41,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,37,IP,International Paper,1,4,42,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,38,CC,Chemours,1,2,67,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,39,DTE,DTE Energy,1,2,35,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,40,ALL,Allstate,1,61,46,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,41,COST,Costco,1,59,48,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,42,AMD,AMD,1,16,49,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,43,NVDA,NVIDIA,1,1,50,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,44,TSLA,Tesla,1,7,51,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,45,GOOG,Alphabet (Google),1,7,52,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,46,PLTR,Palantir,1,-3,59,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,47,SPY,SPDR S&amp;P 500 ETF Trust,1,10,17,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,48,QQQ,Invesco QQQ ETF,1,2,27,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,49,VTI,Vanguard Total Stock Market ETF,1,8,55,
+2026-11-09,2026-11-09T01:05:40Z,apewisdom:Shortsqueeze,50,VOO,Vanguard S&amp;P 500 ETF,1,6,56,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,1,AAPL,Apple,1,0,1,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,2,AMZN,Amazon,1,1,2,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,3,GOOG,Alphabet (Google),1,4,3,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,4,PG,Procter & Gamble,1,1,4,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,5,TSLA,Tesla,1,1,5,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,6,INTC,Intel,1,1,6,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,7,NVDA,NVIDIA,1,3,7,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,8,AMD,AMD,1,3,8,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,9,AVGO,Broadcom,1,2,9,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,10,ALL,Allstate,1,3,10,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,11,CMG,Chipotle Mexican Grill,1,3,0,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,12,CMS,CMS Energy,1,3,12,1
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,13,DTE,DTE Energy,1,0,13,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,14,GPS,Gap Inc.,1,2,14,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,15,IP,International Paper,1,2,15,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,16,MU,Micron Technology,1,3,16,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,17,NOV,National Oilwell Varco,1,3,17,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,18,NOW,ServiceNow,1,1,19,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,19,SO,Southern Company,1,4,20,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,20,IT,Gartner,1,2,21,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,21,MS,Morgan Stanley,1,1,22,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,22,VC,Visteon,1,1,23,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,23,VRRM,Verra Mobility,1,1,24,1
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,24,SMCI,Supermicro,1,3,25,1
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,25,PS,Pluralsight,1,18,26,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,26,ON,ON Semiconductor,1,6,27,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,27,IQ,iQIYI,1,5,28,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,28,DKNG,DraftKings,1,3,29,1
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,29,CC,Chemours,1,1,30,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,30,HR,Healthcare Realty,1,4,32,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,31,GO,Grocery Outlet,1,2,33,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,32,EDIT,Editas Medicine,1,5,35,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,33,BYND,Beyond Meat,1,5,36,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,34,SE,Sea (Garena),1,3,40,1
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,35,RS,Reliance Steel &amp; Aluminum,1,3,41,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,36,OR,Osisko Gold Royalties,1,1,42,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,37,AG,First Majestic Silver,1,5,43,1
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,38,ET,Energy Transfer Partners,1,3,44,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,39,BE,Bloom Energy,1,3,45,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,40,AM,Antero Midstream,1,3,46,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,41,III,Information Services Group,1,0,47,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,42,PLTR,Palantir,1,1,48,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,43,USO,United States Commodity Funds LLC - United States Oil Fund,1,1,49,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,44,SPCX,SpaceX,1,6,50,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,45,SCHD,Schwab Strategic Trust - CSIM Schwab US Dividend Equity ETF,1,2,51,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,46,SMH,VanEck Vectors ETF Trust - VanEck Vectors Semiconductor ETF,1,2,52,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,47,SOXL,Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share,1,1,53,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,48,MAGA,ETF Series Solutions Trust - Point Bridge GOP Stock Tracker ETF,1,13,54,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,49,VXUS,"Vanguard Group, Inc. - Vanguard Total International Stock ETF",1,1,55,
+2026-11-09,2026-11-09T01:05:41Z,apewisdom:pennystocks,50,VOO,Vanguard S&amp;P 500 ETF,1,1,56,
